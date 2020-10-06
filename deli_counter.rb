@@ -12,7 +12,9 @@ def line (katz_deli)
          #.each_with_index enumerator
          index += 1
        end
-    puts "The line is currently: #{new_array.join(" ")}" #cleanly forms all strings into a single line ($globalvariable)
+    puts "The line is currently: #{new_array.join(" ")}" 
+    
+    #cleanly forms all strings into a single line ($globalvariable)
    end
 end
 
