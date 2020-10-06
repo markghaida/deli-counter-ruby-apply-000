@@ -20,7 +20,7 @@ end
 
 def take_a_number (katz_deli)
   katz_deli << caboose_name
-  puts "Welcome, #{caboose_name}. You are ticket number #{katz_deli.length} in line."
+  puts "Welcome, you are ticket number #{katz_deli.length} in line."
 end
 
 
