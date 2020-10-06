@@ -24,15 +24,6 @@ def take_a_number (katz_deli, caboose_name)
   puts "Welcome, #{caboose_name}. You are number #{katz_deli.length} in line."
 end
 
-def take_a_number (katz_deli)
-  
-  katz_counter = 0
-  katz_counter += 1
-  katz_deli << katz_counter
-  puts "You are number #{katz_deli} in line."
-end
-
-
 
 def now_serving (katz_deli)
     if katz_deli.length == 0 
