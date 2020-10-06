@@ -4,7 +4,7 @@ def line (katz_deli)
    if katz_deli.length == 0
      puts "The line is currently empty."
    else
-     index = 0
+     index = 1
      new_array = [] 
      
        while index < katz_deli.length
