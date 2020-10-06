@@ -17,10 +17,9 @@ def line (katz_deli)
    end
 end
 
-
+katz_counter = 0
 def take_a_number (katz_deli)
   
-  katz_counter = katz_deli.length 
   katz_counter += 1
   katz_deli << katz_counter
   puts "Welcome, you are ticket number #{katz_counter} in line."
