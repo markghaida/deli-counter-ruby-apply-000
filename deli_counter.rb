@@ -24,6 +24,7 @@ def take_a_number (katz_deli)
   katz_counter += 1
   katz_deli << katz_counter
   puts "Welcome, you are ticket number #{katz_counter} in line."
+  
 end
 
 
