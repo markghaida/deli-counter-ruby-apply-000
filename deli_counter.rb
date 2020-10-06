@@ -13,7 +13,6 @@ def line (katz_deli)
          index += 1
        end
     puts "The line is currently: #{new_array.join(" ")}" 
-    
     #cleanly forms all strings into a single line
    end
 end
