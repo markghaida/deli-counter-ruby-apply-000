@@ -19,7 +19,7 @@ end
 
 
 def take_a_number (katz_deli)
-  # how to make this start orevious iterationkatz_counter = 0
+  # how to make this start previous iteration katz_counter = 0
   katz_counter += 1
   katz_deli << 
   puts "Welcome, you are ticket number #{katz_deli.length} in line."
